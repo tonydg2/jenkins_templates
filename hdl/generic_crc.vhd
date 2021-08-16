@@ -26,7 +26,7 @@ library ieee;
 use ieee.std_logic_1164.all;
 --use ieee.numeric_std.all;
 
-entity generic_crc is
+entity generic_crc i
   generic (
     Polynomial        : std_logic_vector  := "100000111"; -- default = z^8 + z^2 + z + 1
     InitialConditions : std_logic_vector  := "0";         --
