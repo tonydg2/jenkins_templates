@@ -1,5 +1,5 @@
 # tclsh sim.tcl
-####
+#####
 # clean up log file etc., before run. Deletes everything including compile dir.
 proc cleanup {} {
   file delete -force {*}[glob -nocomplain xsim*]
